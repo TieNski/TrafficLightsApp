@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@+id/nav_start_driving">
+
+    <fragment
+        android:id="@+id/nav_start_driving"
+        android:name="com.kbc.interview.test.app.ui.fragment.FragmentStartDriving"
+        tools:layout="@layout/fragment_start_driving" >
+        <action
+            android:id="@+id/action_nav_start_driving_to_nav_traffic_light"
+            app:destination="@id/nav_traffic_light" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_traffic_light"
+        android:name="com.kbc.interview.test.app.ui.fragment.FragmentTrafficLight"
+        tools:layout="@layout/fragment_traffic_light" />
+
+</navigation>

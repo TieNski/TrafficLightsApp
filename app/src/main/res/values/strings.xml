@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KBCTestApp</string>
+    <string name="drive">Start Driving</string>
+    <string name="enter_model">Enter Model</string>
+    <string name="car_model_error_too_short">Car model must be at least 3 characters long</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/red"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/red_circle"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_centerHorizontal="true" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/orange"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/orange_circle"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_centerHorizontal="true" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/green"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/green_circle"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_centerHorizontal="true" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
